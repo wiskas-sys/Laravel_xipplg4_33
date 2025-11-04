@@ -7,7 +7,7 @@ class LandingController extends Controller
 {
     public function index()
     {
-        return view('index');
+        // return halaman landing
+        return view('landing'); // pastikan file resources/views/landing.blade.php ada
     }
-    
 }
